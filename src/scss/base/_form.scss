@@ -1,0 +1,90 @@
+/* FLEX HEADER */
+.header__main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 50px;
+    padding: 0 50px;
+}
+
+/* GRID PANNEL */
+.pannel {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 600px);
+    grid-auto-flow: row;
+    justify-content: center;
+    align-content: center;
+    grid-template-areas:
+        "pannel__one-left pannel__one-right"
+        "pannel__two-left pannel__two-right"
+        "pannel__three-left pannel__three-right";
+}
+
+.pannel__one-left {
+    grid-area: pannel__one-left;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+}
+.pannel__one-right {
+    grid-area: pannel__one-right;
+}
+.pannel__two-left {
+    grid-area: pannel__two-left;
+}
+.pannel__two-right {
+    grid-area: pannel__two-right;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+}
+.pannel__three-left {
+    grid-area: pannel__three-left;
+    background-image: url("/src/img/photos/graphic-design.jpg");
+    background-position: center;
+    background-size: cover;
+    @include row-flex-center();
+
+}
+.pannel__three-right {
+    grid-area: pannel__three-right;
+    background-image: url("/src/img/photos/photography.jpg");
+    background-position: center;
+    background-size: cover;
+    @include row-flex-center();
+}
+
+/* FLEX TESTIMONIALS */
+.testimonials {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+
+}
+
+/* FLEX GALLERY */
+.gallery {
+    display: flex;
+    flex-direction: row;
+}
+
+/* FLEX FOOTER */
+.nav__list {
+    display: flex;
+    justify-content: center;
+    gap: 57px;
+}
+
+.social__list {
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+}

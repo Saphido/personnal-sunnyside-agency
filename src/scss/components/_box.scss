@@ -1,0 +1,72 @@
+/* GESTION DES 4 PREMIERES BOX */
+.box {
+    width: 445px;
+    max-height: 600px;
+
+    &__image {
+        width: 50vw;
+        max-height: auto;
+    }
+
+    &__title {
+        font-family: $fraunces-bold;
+        font-size: 40px;
+        font-weight: 900;
+        line-height: 49px;
+        color: #24303E;
+        margin-bottom: 25px;
+    }
+
+    &__text {
+        font-family: $barlow;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 30px;
+        color: #808397;
+        margin-bottom: 30px;
+    }
+}
+
+/* GESTION DES 2 DERNIERE BOX (Cerise et orange) */
+.box-different-left {
+    width: 340px;
+
+    &__title {
+        font-family: $fraunces-bold;
+        font-size: 28px;
+        font-weight: 900;
+        line-height: 49px;
+        color: #24554A;
+    }
+
+    &__text {
+        font-family: $barlow;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 30px;
+        color: #3E7467;
+        margin: 22px 0px 50px 0px;
+    }
+}
+
+.box-different-right {
+    width: 340px;
+
+    &__title {
+        font-family: $fraunces-bold;
+        font-size: 28px;
+        font-weight: 900;
+        line-height: 35px;
+        color: #052C3B;
+        opacity: 0.75;
+    }
+
+    &__text {
+        font-family: $barlow;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 27px;
+        color: #19536C;
+        margin: 42px 0px 50px 0px;
+    }
+}

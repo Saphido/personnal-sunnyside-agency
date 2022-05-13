@@ -1,0 +1,56 @@
+/* GESTION DES TESTIMONIALS */
+.testimonials {
+    height: 638px;
+
+    &__title {
+        text-align: center;
+        font-family: $fraunces-classic;
+        font-weight: 900;
+        font-size: 20px;
+        line-height: 25px;
+        letter-spacing: 5px;
+        color: #A7AAAD;
+        margin: 100px 0 -100px 0;
+    }
+
+    &__person {
+        width: 350px;
+        height: auto;
+        text-align: center;
+    }
+
+    &__images {
+        border-radius: 50%;
+        width: 72px;
+        margin-bottom: 58px;
+    }
+
+    &__message {
+        font-family: $barlow;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 32px;
+        text-align: center;
+        color: #5B636D;
+        margin-bottom: 69px;
+    }
+
+    &__name {
+        font-family: $fraunces-bold;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        color: #24303E;
+        margin-bottom: 9px;
+    }
+
+    &__role {
+        font-family: $barlow;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 25px;
+        text-align: center;
+        color: #A7AAAD;
+    }
+}
