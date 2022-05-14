@@ -25,6 +25,41 @@
         color: #808397;
         margin-bottom: 30px;
     }
+
+    &__link {
+        text-decoration: none;
+        color: #24303E;
+        font-family: $fraunces-bold;
+        font-weight: 900;
+        font-size: 15px;
+        line-height: 25px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+}
+
+.yellow-line {
+    background-color: #FAD400;
+    opacity: 0.25;
+    width: 135px;
+    height: 9px;
+    border-radius: 28px;
+    border: none;
+    margin-left: -126px;
+    padding-bottom: 5px;
+}
+
+.red-line {
+    background-color: #FE7766;
+    opacity: 0.25;
+    width: 130px;
+    height: 9px;
+    border-radius: 28px;
+    border: none;
+    margin-left: -124px;
+    padding-bottom: 5px;
+
+
 }
 
 /* GESTION DES 2 DERNIERE BOX (Cerise et orange) */

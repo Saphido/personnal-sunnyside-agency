@@ -5,15 +5,15 @@
     text-align: center;
     color: #2C7566;
     text-align: center;
-    padding: 80px 0px 0px 0px;
 
     &__logo {
         filter: invert(59%) sepia(14%) saturate(1466%) hue-rotate(118deg) brightness(96%) contrast(94%);
         height: 33px;
+        padding-top: 72px;
     }
 }
 
-.nav {
+.nav-footer {
     &__links {
         text-decoration: none;
         color: #458D7E;
