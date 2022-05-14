@@ -22,7 +22,7 @@
         line-height: 25px;
     }
 
-    &__links-contact {
+    &__button {
         text-decoration: none;
         font-family: $fraunces-bold;
         font-weight: 900;
@@ -30,9 +30,6 @@
         font-size: 15px;
         line-height: 25px;
         text-transform: uppercase;
-    }
-
-    &__button {
         border: none;
         border-radius: 28px;
         background-color: white;
@@ -40,6 +37,11 @@
         height: 56px;
         position: relative;
         top: -16px;
+
+        &:hover {
+            background: rgba(255, 255, 255, 0.25);
+            color: white;
+        }
     }
 }
 

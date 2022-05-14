@@ -21,6 +21,10 @@
         font-weight: 600;
         font-size: 18px;
         line-height: 25px;
+
+        &:hover {
+            color: white;
+        }
     }
 
     &__items {
@@ -31,6 +35,10 @@
 .social {
     &__image {
         width: 20px;
+
+        &:hover {
+            filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(201deg) brightness(100%) contrast(1500%);
+        }
     }
 
     &__items {

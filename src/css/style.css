@@ -84,8 +84,8 @@ table {
 /* GRID PANNEL */
 .pannel {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(3, 600px);
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
   grid-auto-flow: row;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -113,6 +113,7 @@ table {
 
 .pannel__one-right {
   grid-area: pannel__one-right;
+  background-image: url("/src/img/photos/graphic-design.jpg");
 }
 
 .pannel__two-left {
@@ -253,7 +254,7 @@ body {
   font-size: 18px;
   line-height: 25px;
 }
-.nav__links-contact {
+.nav__button {
   text-decoration: none;
   font-family: "Fraunces", sans-serif;
   font-weight: 900;
@@ -261,8 +262,6 @@ body {
   font-size: 15px;
   line-height: 25px;
   text-transform: uppercase;
-}
-.nav__button {
   border: none;
   border-radius: 28px;
   background-color: white;
@@ -270,6 +269,10 @@ body {
   height: 56px;
   position: relative;
   top: -16px;
+}
+.nav__button:hover {
+  background: rgba(255, 255, 255, 0.25);
+  color: white;
 }
 
 .title__text {
@@ -295,7 +298,7 @@ body {
 }
 .box__image {
   width: 50vw;
-  max-height: auto;
+  height: 33.3%;
 }
 .box__title {
   font-family: "Fraunces", sans-serif;
@@ -323,7 +326,14 @@ body {
   letter-spacing: 1px;
   text-transform: uppercase;
 }
+.box__link:hover .yellow-line {
+  opacity: 1;
+}
+.box__link:hover .red-line {
+  opacity: 1;
+}
 
+/* La petite ligne en dessous des learn more */
 .yellow-line {
   background-color: #FAD400;
   opacity: 0.25;
@@ -331,19 +341,19 @@ body {
   height: 9px;
   border-radius: 28px;
   border: none;
-  margin-left: -126px;
-  padding-bottom: 5px;
+  margin-left: -10px;
+  margin-top: -12px;
 }
 
 .red-line {
   background-color: #FE7766;
   opacity: 0.25;
-  width: 130px;
+  width: 135px;
   height: 9px;
   border-radius: 28px;
   border: none;
-  margin-left: -124px;
-  padding-bottom: 5px;
+  margin-left: -10px;
+  margin-top: -12px;
 }
 
 /* GESTION DES 2 DERNIERE BOX (Cerise et orange) */
@@ -468,12 +478,19 @@ body {
   font-size: 18px;
   line-height: 25px;
 }
+.nav-footer__links:hover {
+  color: white;
+}
 .nav-footer__items {
   margin-top: 40px;
 }
 
 .social__image {
   width: 20px;
+}
+.social__image:hover {
+  -webkit-filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(201deg) brightness(100%) contrast(1500%);
+          filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(201deg) brightness(100%) contrast(1500%);
 }
 .social__items {
   margin-top: 88px;
