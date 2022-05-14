@@ -39,13 +39,17 @@
     align-content: center;
     justify-items: center;
     align-items: center;
+    width: 50vw;
 }
 .pannel__one-right {
     grid-area: pannel__one-right;
-    background-image: url("/src/img/photos/graphic-design.jpg");
+    width: 50vw;
+    max-width: 50%;
 }
 .pannel__two-left {
     grid-area: pannel__two-left;
+    width: 50vw;
+    max-width: 50%;
 }
 .pannel__two-right {
     grid-area: pannel__two-right;
@@ -54,6 +58,7 @@
     align-content: center;
     justify-items: center;
     align-items: center;
+    width: 50vw;
 }
 .pannel__three-left {
     grid-area: pannel__three-left;
@@ -61,6 +66,8 @@
     background-position: center;
     background-size: cover;
     @include row-flex-center();
+    width: 50vw;
+    max-width: 100%;
 
 }
 .pannel__three-right {
@@ -69,6 +76,7 @@
     background-position: center;
     background-size: cover;
     @include row-flex-center();
+    width: 50vw;
 }
 
 /* FLEX TESTIMONIALS */

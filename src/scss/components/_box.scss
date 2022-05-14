@@ -5,7 +5,7 @@
 
     &__image {
         width: 50vw;
-        height: 33.3%;
+        max-block-size: 600px;
     }
 
     &__title {
@@ -75,7 +75,7 @@
 
 /* GESTION DES 2 DERNIERE BOX (Cerise et orange) */
 .box-different-left {
-    width: 340px;
+    width: 50vw;
 
     &__title {
         font-family: $fraunces-bold;
@@ -96,7 +96,7 @@
 }
 
 .box-different-right {
-    width: 340px;
+    width: 50vw;
 
     &__title {
         font-family: $fraunces-bold;

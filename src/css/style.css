@@ -109,15 +109,19 @@ table {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 50vw;
 }
 
 .pannel__one-right {
   grid-area: pannel__one-right;
-  background-image: url("/src/img/photos/graphic-design.jpg");
+  width: 50vw;
+  max-width: 50%;
 }
 
 .pannel__two-left {
   grid-area: pannel__two-left;
+  width: 50vw;
+  max-width: 50%;
 }
 
 .pannel__two-right {
@@ -134,6 +138,7 @@ table {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 50vw;
 }
 
 .pannel__three-left {
@@ -155,6 +160,8 @@ table {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+  width: 50vw;
+  max-width: 100%;
 }
 
 .pannel__three-right {
@@ -176,6 +183,7 @@ table {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+  width: 50vw;
 }
 
 /* FLEX TESTIMONIALS */
@@ -228,8 +236,9 @@ table {
   gap: 28px;
 }
 
-body {
-  width: 100%;
+html {
+  width: 100vw;
+  overflow-x: hidden;
   background-color: #fff;
 }
 
@@ -298,7 +307,7 @@ body {
 }
 .box__image {
   width: 50vw;
-  height: 33.3%;
+  max-block-size: 600px;
 }
 .box__title {
   font-family: "Fraunces", sans-serif;
@@ -358,7 +367,7 @@ body {
 
 /* GESTION DES 2 DERNIERE BOX (Cerise et orange) */
 .box-different-left {
-  width: 340px;
+  width: 50vw;
 }
 .box-different-left__title {
   font-family: "Fraunces", sans-serif;
@@ -377,7 +386,7 @@ body {
 }
 
 .box-different-right {
-  width: 340px;
+  width: 50vw;
 }
 .box-different-right__title {
   font-family: "Fraunces", sans-serif;
@@ -448,9 +457,6 @@ body {
 }
 
 /* GESTION DE LA GALLERY */
-.gallery {
-  max-width: 1440px;
-}
 .gallery__image {
   max-width: 25vw;
 }
@@ -459,6 +465,7 @@ body {
 .footer {
   background-color: #90D4C6;
   height: 350px;
+  width: 100vw;
   text-align: center;
   color: #2C7566;
   text-align: center;
