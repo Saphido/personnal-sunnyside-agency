@@ -114,14 +114,26 @@ table {
 
 .pannel__one-right {
   grid-area: pannel__one-right;
+  background-image: url("/src/img/photos/transform.jpg");
+  background-position: center;
+  background-size: cover;
   width: 50vw;
-  max-width: 50%;
+  height: auto;
+  max-width: 100%;
+  min-height: 600px;
+  max-height: 800px;
 }
 
 .pannel__two-left {
   grid-area: pannel__two-left;
+  background-image: url("/src/img/photos/stand-out.jpg");
+  background-position: center;
+  background-size: cover;
   width: 50vw;
-  max-width: 50%;
+  height: auto;
+  max-width: 100%;
+  min-height: 600px;
+  max-height: 800px;
 }
 
 .pannel__two-right {
@@ -143,9 +155,6 @@ table {
 
 .pannel__three-left {
   grid-area: pannel__three-left;
-  background-image: url("/src/img/photos/graphic-design.jpg");
-  background-position: center;
-  background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -160,15 +169,18 @@ table {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+  background-image: url("/src/img/photos/graphic-design.jpg");
+  background-position: center;
+  background-size: cover;
   width: 50vw;
+  height: auto;
   max-width: 100%;
+  min-height: 600px;
+  max-height: 800px;
 }
 
 .pannel__three-right {
   grid-area: pannel__three-right;
-  background-image: url("/src/img/photos/photography.jpg");
-  background-position: center;
-  background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -183,7 +195,14 @@ table {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+  background-image: url("/src/img/photos/photography.jpg");
+  background-position: center;
+  background-size: cover;
   width: 50vw;
+  height: auto;
+  max-width: 100%;
+  min-height: 600px;
+  max-height: 800px;
 }
 
 /* FLEX TESTIMONIALS */
@@ -302,8 +321,8 @@ html {
 
 /* GESTION DES 4 PREMIERES BOX */
 .box {
-  width: 445px;
-  max-height: 600px;
+  max-width: 445px;
+  height: auto;
 }
 .box__image {
   width: 50vw;
@@ -405,9 +424,50 @@ html {
   margin: 42px 0px 50px 0px;
 }
 
+.box-image-right {
+  width: 50vw;
+}
+.box-image-right__title {
+  font-family: "Fraunces", sans-serif;
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 35px;
+  color: #052C3B;
+  opacity: 0.75;
+}
+.box-image-right__text {
+  font-family: "Barlow";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 27px;
+  color: #19536C;
+  margin: 42px 0px 50px 0px;
+}
+
+.box-image-left {
+  width: 50vw;
+}
+.box-image-left__title {
+  font-family: "Fraunces", sans-serif;
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 35px;
+  color: #052C3B;
+  opacity: 0.75;
+}
+.box-image-left__text {
+  font-family: "Barlow";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 27px;
+  color: #19536C;
+  margin: 42px 0px 50px 0px;
+}
+
 /* GESTION DES TESTIMONIALS */
 .testimonials {
   height: 638px;
+  width: 100vw;
 }
 .testimonials__title {
   text-align: center;
@@ -436,7 +496,7 @@ html {
   line-height: 32px;
   text-align: center;
   color: #5B636D;
-  margin-bottom: 69px;
+  margin: 0px 10px 69px 10px;
 }
 .testimonials__name {
   font-family: "Fraunces", sans-serif;

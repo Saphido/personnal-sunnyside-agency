@@ -1,7 +1,7 @@
 /* GESTION DES 4 PREMIERES BOX */
 .box {
-    width: 445px;
-    max-height: 600px;
+    max-width: 445px;
+    height: auto;
 
     &__image {
         width: 50vw;
@@ -96,6 +96,50 @@
 }
 
 .box-different-right {
+    width: 50vw;
+
+    &__title {
+        font-family: $fraunces-bold;
+        font-size: 28px;
+        font-weight: 900;
+        line-height: 35px;
+        color: #052C3B;
+        opacity: 0.75;
+    }
+
+    &__text {
+        font-family: $barlow;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 27px;
+        color: #19536C;
+        margin: 42px 0px 50px 0px;
+    }
+}
+
+.box-image-right {
+    width: 50vw;
+
+    &__title {
+        font-family: $fraunces-bold;
+        font-size: 28px;
+        font-weight: 900;
+        line-height: 35px;
+        color: #052C3B;
+        opacity: 0.75;
+    }
+
+    &__text {
+        font-family: $barlow;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 27px;
+        color: #19536C;
+        margin: 42px 0px 50px 0px;
+    }
+}
+
+.box-image-left {
     width: 50vw;
 
     &__title {
