@@ -114,7 +114,7 @@ table {
 
 .pannel__one-right {
   grid-area: pannel__one-right;
-  background-image: url("/src/img/photos/transform.jpg");
+  background-image: url("../img/photos/transform.jpg");
   background-position: center;
   background-size: cover;
   width: 50vw;
@@ -126,7 +126,7 @@ table {
 
 .pannel__two-left {
   grid-area: pannel__two-left;
-  background-image: url("/src/img/photos/stand-out.jpg");
+  background-image: url("../img/photos/stand-out.jpg");
   background-position: center;
   background-size: cover;
   width: 50vw;
@@ -169,7 +169,7 @@ table {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  background-image: url("/src/img/photos/graphic-design.jpg");
+  background-image: url("../img/photos/graphic-design.jpg");
   background-position: center;
   background-size: cover;
   width: 50vw;
@@ -195,7 +195,7 @@ table {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  background-image: url("/src/img/photos/photography.jpg");
+  background-image: url("../img/photos/photography.jpg");
   background-position: center;
   background-size: cover;
   width: 50vw;
@@ -489,7 +489,7 @@ html {
 }
 
 .header {
-  background-image: url("/src/img/photos/header.jpg");
+  background-image: url("../img/photos/header.jpg");
   background-position: center;
   background-size: cover;
   width: 100vw;
