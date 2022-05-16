@@ -2,6 +2,7 @@
 
 This project is the first in group (Actually duo).
 
+<a href="https://saphido.github.io/personnal-sunnyside-agency/"> Link to the project page</a>
 ## What we need to do ?
 
 In this one, we need to reproduce as much identical as possible, the design on Figma. We also need to use Grid and/or Flexbox, B.E.M naming rules & SASS.
