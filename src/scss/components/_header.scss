@@ -5,6 +5,10 @@
     width: 100vw;
     min-height: 800px;
 
+    &__hamburger {
+        display: none;
+    }
+
     &__logo {
         height: 33px;
         position: relative;
@@ -13,6 +17,7 @@
 }
 
 .nav {
+
     &__links {
         text-decoration: none;
         font-family: $barlow;
@@ -61,5 +66,38 @@
     &__arrow {
         text-align: center;
         margin-top: 96px; 
+    }
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (max-device-width : 375px) {
+
+    .header-main {
+        width: 100vw;
+    }
+
+    .header {
+
+        &__hamburger {
+            display: block;
+            margin-bottom: 30px;
+            margin-left: 80px;
+            padding-right: 0px;
+
+        }
+
+        &__nav {
+            display: none;
+        }
+
+        &__logo {
+            right: 20px;
+        }
+    }
+
+    .title {
+        &__text {
+            font-size: 45px;
+        }
     }
 }

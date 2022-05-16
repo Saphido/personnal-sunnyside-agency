@@ -126,3 +126,162 @@
     justify-content: center;
     gap: 28px;
 }
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (max-device-width : 375px) {
+
+    .header {
+        &__main {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+            top: 50px;
+            padding: 0 50px;
+            gap: 60px;
+        }
+    }
+
+    .pannel {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        grid-auto-flow: row;
+        justify-content: center;
+        align-content: center;
+        grid-template-areas:
+            "pannel__one-left"
+            "pannel__one-right"
+            "pannel__two-left" 
+            "pannel__two-right"
+            "pannel__three-left"
+            "pannel__three-right";
+    }    
+
+    .pannel__one-left {
+        grid-area: pannel__one-left;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        justify-items: center;
+        align-items: center;
+        width: 100vw;
+    }
+    .pannel__one-right {
+        grid-area: pannel__one-right;
+        background-image: url("/src/img/photos/transform.jpg");
+        background-position: center;
+        background-size: cover;
+        width: 100vw;
+        height: auto;
+        max-width: 100%;
+        min-height: 600px;
+        max-height: 800px;
+    }
+    .pannel__two-left {
+        grid-area: pannel__two-left;
+        background-image: url("/src/img/photos/stand-out.jpg");
+        background-position: center;
+        background-size: cover;
+        width: 100vw;
+        height: auto;
+        max-width: 100%;
+        min-height: 600px;
+        max-height: 800px;
+    }
+    .pannel__two-right {
+        grid-area: pannel__two-right;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        justify-items: center;
+        align-items: center;
+        width: 100vw;
+    }
+    .pannel__three-left {
+        grid-area: pannel__three-left;
+        @include row-flex-center();
+        background-image: url("/src/img/photos/graphic-design.jpg");
+        background-position: center;
+        background-size: cover;
+        width: 100vw;
+        height: auto;
+        max-width: 100%;
+        min-height: 600px;
+        max-height: 800px;
+    
+    }
+    .pannel__three-right {
+        grid-area: pannel__three-right;
+        @include row-flex-center();
+        background-image: url("/src/img/photos/photography.jpg");
+        background-position: center;
+        background-size: cover;
+        width: 100vw;
+        height: auto;
+        max-width: 100%;
+        min-height: 600px;
+        max-height: 800px;
+    }
+    
+    /* FLEX TESTIMONIALS */
+    .testimonials {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+    
+    }
+    
+    /* FLEX GALLERY */
+    .gallery {
+        display: grid; 
+        grid-template-columns: 1fr 1fr; 
+        grid-template-rows: 1fr 1fr; 
+        gap: 0px 0px; 
+        grid-template-areas: 
+          "gallery-one gallery-two"
+          "gallery-three gallery-four"; 
+    }
+
+    #gallery-one {
+        grid-area: gallery-one;
+    }
+
+    #gallery-two {
+        grid-area: gallery-two;
+    }
+
+    #gallery-three {
+        grid-area: gallery-three;
+    }
+
+    #gallery-four {
+        grid-area: gallery-four;
+    }
+    
+    /* FLEX FOOTER */
+    .nav-footer__list {
+        display: flex;
+        justify-content: center;
+        gap: 57px;
+    }
+    
+    .social__list {
+        display: flex;
+        justify-content: center;
+        gap: 28px;
+    }
+    /* FLEX TESTIMONIALS */
+    .main-testimonials {
+        height: 1400px;
+    }
+    .testimonials {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 80px;
+     }
+    }

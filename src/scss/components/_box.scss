@@ -160,3 +160,65 @@
         margin: 42px 0px 50px 0px;
     }
 }
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (max-device-width : 375px) {
+
+    .box {
+        margin: 0px 20px;
+    }
+
+    .box-image-right {
+        width: 100vw;
+    
+        &__title {
+            font-family: $fraunces-bold;
+            font-size: 28px;
+            font-weight: 900;
+            line-height: 35px;
+            color: #052C3B;
+            opacity: 0.75;
+        }
+    
+        &__text {
+            font-family: $barlow;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 27px;
+            color: #19536C;
+            margin: 42px 0px 50px 0px;
+        }
+    }
+    
+    .box-image-left {
+        width: 100vw;
+    
+        &__title {
+            font-family: $fraunces-bold;
+            font-size: 28px;
+            font-weight: 900;
+            line-height: 35px;
+            color: #052C3B;
+            opacity: 0.75;
+        }
+    
+        &__text {
+            font-family: $barlow;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 27px;
+            color: #19536C;
+            margin: 42px 0px 50px 0px;
+        }
+    }
+
+    .yellow-line {
+        width: 115px;
+        margin-left: -4px;
+    }
+    
+    .red-line {
+        width: 115px;
+        margin-left: -4px;
+    }
+}

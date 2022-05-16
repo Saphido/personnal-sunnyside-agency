@@ -4,3 +4,12 @@
         max-width: 25vw;
     }
 }
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (max-device-width : 375px) {
+    .gallery {
+        &__image {
+            max-width: 50vw;  
+        }
+    }
+}
